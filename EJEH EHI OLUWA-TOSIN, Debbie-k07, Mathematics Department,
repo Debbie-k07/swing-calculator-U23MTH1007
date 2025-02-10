@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ArithmeticCalculator extends JFrame implements ActionListener {
+public class SwingCalculator extends JFrame implements ActionListener {
     private JTextField num1Field, num2Field, resultField;
     private JButton addButton, subtractButton, multiplyButton, divideButton, moduloButton, clearButton;
 
-    public ArithmeticCalculator() {
+    public SwingCalculator() {
         // Frame title
-        setTitle("Arithmetic Calculator");
+        setTitle("Swing Calculator");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(4, 2, 10, 10));
